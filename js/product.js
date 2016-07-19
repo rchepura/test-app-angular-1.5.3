@@ -27,7 +27,7 @@
                 controller: function () {
                     this.current = 0;
                     this.setCurrent = function (imageNumber) {
-                    console.log('imageNumber: ' + imageNumber);
+                    // console.log('imageNumber: ' + imageNumber);
                         this.current = imageNumber || 0;
                     };
                 },
